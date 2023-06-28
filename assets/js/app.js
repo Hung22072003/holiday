@@ -274,10 +274,3 @@ btnOpenLogin.onclick = function(e) {
     btnOpenRegister.classList.remove('form-options__item--active')
     e.target.classList.add('form-options__item--active')
 }
-
-btnOpenRegister.onclick = function(e) {
-    formLogin.classList.remove('open')
-    formRegister.classList.add('open')
-    btnOpenLogin.classList.remove('form-options__item--active')
-    e.target.classList.add('form-options__item--active')
-}

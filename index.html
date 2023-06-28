@@ -1,0 +1,2632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-mobile-tablet">
+            <div class="grid wide">
+                <div class="row" style="height:var(--header-height-mobile-tablet);align-items: center;justify-content: space-between;">
+                    <div class="header-menu-mobile-tablet">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    
+                    <div class="header-logo-mobile-tablet">
+                        <a href="" class="header-logo__link">
+                            <img src="./assets/img/logo-mobile-img.png" alt="" class="header-logo__img-mobile-tablet">
+                        </a>
+                    </div>
+
+                    <label for="form-input-checked" class="header-login-mobile-tablet">
+                        <svg version="1.1" x="0px" y="0px" viewBox="0 0 23 23" enable-background="new 0 0 23 23" xml:space="preserve">
+                            <g>
+                            <path fill="currentColor" d="M11.5,14.1c-2.2,0-4-1.8-4-4c0-2.2,1.8-4,4-4s4,1.8,4,4C15.5,12.3,13.7,14.1,11.5,14.1z M11.5,7.3
+                                        c-1.6,0-2.8,1.3-2.8,2.8c0,1.6,1.3,2.8,2.8,2.8s2.8-1.3,2.8-2.8C14.3,8.5,13,7.3,11.5,7.3z"></path>
+                            <path fill="currentColor" d="M11.5,23c-3.1,0-5.9-1.2-8.1-3.4c-2.2-2.2-3.4-5-3.4-8.1s1.2-5.9,3.4-8.1c2.2-2.2,5-3.4,8.1-3.4
+                                        s5.9,1.2,8.1,3.4c2.2,2.2,3.4,5,3.4,8.1s-1.2,5.9-3.4,8.1C17.4,21.8,14.5,23,11.5,23z M11.5,1.2C5.8,1.2,1.2,5.9,1.2,11.5
+                                        s4.6,10.3,10.3,10.3s10.3-4.6,10.3-10.3S17.1,1.2,11.5,1.2z"></path>
+                            <path fill="currentColor" d="M11.5,23c-1.5,0-2.9-0.3-4.2-0.8c-0.2-0.1-0.4-0.3-0.4-0.6v-5.3c0-1.8,1.5-3.3,3.3-3.3h2.6
+                                        c1.8,0,3.3,1.5,3.3,3.3v5.3c0,0.2-0.1,0.5-0.4,0.6C14.4,22.7,12.9,23,11.5,23z M8.1,21.2c1.1,0.4,2.2,0.6,3.4,0.6s2.3-0.2,3.4-0.6
+                                        v-4.9c0-1.2-0.9-2.1-2.1-2.1h-2.6c-1.2,0-2.1,0.9-2.1,2.1V21.2z"></path>
+                            </g>
+                            </svg>
+                    </label>
+
+                    <input type="checkbox" class="form-input-checked" id="form-input-checked">
+                    
+                    <div class="form-validated-mobile-tablet">
+                        <label for="form-input-checked" class="form-overlay">
+                        </label>
+                        
+                        <div class="form-inner">
+                            <ul class="form-options">
+                                <li class="form-options__item open-form-login form-options__item--active">LOGIN</li>
+                                <li class="form-options__item open-form-register">REGISTER</li>
+                            </ul>
+                
+                            <div class="form-login open">    
+                                <h4 class="form-login__heading hide-on-mobile">Sign In Here!</h4>
+                                <p class="form-login__description hide-on-mobile">Log into your account in just a few simple steps.</p>
+                                <div class="form-login__input">
+                                    <span class="form-login__input-icon">
+                                        <i class="fas fa-user icon-profile"></i>
+                                    </span>
+                
+                                    <input type="text" class="form-login__input-name" placeholder="User Name">
+                                </div>
+                
+                                <div class="form-login__input">
+                                    <span class="form-login__input-icon">
+                                        <i class="fas fa-lock icon-password"></i>
+                                    </span>
+                
+                                    <input type="text" class="form-login__input-password" placeholder="Password">
+                                </div>
+                
+                                <div class="form-login__remember">
+                                    <input type="checkbox" id="rememberme">
+                                    <label for="rememberme" class="form-login__remember-text">Remember me</label>
+                                </div>
+                
+                                <a href="" class="form-login__notification">Lost Your Password?</a>
+                
+                                <button class="btn form-login__btn">SIGN IN</button>
+                
+                                <span class="form-login__social-tittle">Sign in with Facebook or Google+</span>
+                
+                                <ul class="form-login__social-network">
+                                    <li class="form-login__social-network-item">
+                                        <a href="" class="form-login__social-network-link" style="background-color:#3b5998">FACEBOOK</a>
+                                    </li>
+                                    <li class="form-login__social-network-item">
+                                        <a href="" class="form-login__social-network-link" style="background-color:#dd4b39">GOOGLE+</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="form-register">
+                                <h4 class="form-register__heading hide-on-mobile">Register Now!</h4>
+                                <p class="form-register__description hide-on-mobile">Join the SetSail community today & set up a free account.</p>
+                                <div class="form-register__input">
+                                    <span class="form-register__input-icon">
+                                        <i class="fas fa-user icon-profile"></i>
+                                    </span>
+                
+                                    <input type="text" class="form-register__input-name" placeholder="User Name">
+                                </div>
+                
+                                <div class="form-register__input">
+                                    <span class="form-register__input-icon">
+                                        <i class="fas fa-envelope icon-email"></i>
+                                    </span>
+                
+                                    <input type="email" class="form-register__input-email" placeholder="Email">
+                                </div>
+
+                                <div class="form-register__input">
+                                    <span class="form-register__input-icon">
+                                        <i class="fas fa-lock icon-password"></i>
+                                    </span>
+                
+                                    <input type="password" class="form-register__input-password" placeholder="Password">
+                                </div>
+
+                                <div class="form-register__input">
+                                    <span class="form-register__input-icon">
+                                        <i class="fas fa-lock icon-password"></i>
+                                    </span>
+                
+                                    <input type="password" class="form-register__input-password" placeholder="Repeat Password">
+                                </div>
+                
+                                <button class="btn form-register__btn">REGISTER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="header-logo">
+            <a href="" class="header-logo__link">
+                <img src="./assets/img/logo.png" alt="" class="header-logo__img hide-on-mobile-tablet">
+            </a>
+        </div>
+
+
+        <div class="navbar hide-on-mobile-tablet">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading navbar-item__heading--active">
+                        Home
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Travel Agency
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link navbar-list-menu__link--active">
+                                Winter Holidays
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Exotic Destinations
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Summer Holidays
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                City Tours
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                New Year Trips
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Destinations Carousel
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Wine Tours
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Vacation Showcase
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Landing
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Pages
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                About Us
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                What We Offer
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Our Team
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                               Get In Touch
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Contact Us
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                FAQ Page
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Coming Soon
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Error Page
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Destinations
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Destination List
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Destination Slider
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Destination Item
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Tours
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Standard List
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Gallery List
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Split List
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                               Tour Item
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Blog
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Blog Masonry
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Blog Standard
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                            <i class="navbar-list-menu__icon fas fa-angle-right"></i>
+
+                            <ul class="navbar-list-menu-second">
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Right SideBar
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Left SideBar
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Without SideBar
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Post Types
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                            <i class="navbar-list-menu__icon fas fa-angle-right"></i>
+
+                            <ul class="navbar-list-menu-second">
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Standard
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Gallery
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Link
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Quote
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Video
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Audio
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">No SideBar
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Shop
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Product List
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Product Single
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Shop Layouts
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                            <i class="navbar-list-menu__icon fas fa-angle-right"></i>
+
+                            <ul class="navbar-list-menu-second">
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Three Columns
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Four Columns
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Full Width
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Shop Pages
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                            <i class="navbar-list-menu__icon fas fa-angle-right"></i>
+
+                            <ul class="navbar-list-menu-second">
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">My account
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Cart
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Check Out
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Elements
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <div class="navbar-item-menu__warrap">
+                        <div class="grid wide">
+                            <div class="row navbar-item-menu__inner">
+                                <div class="col l-3">
+                                    <span class="navbar-list-full__heading">
+                                        <a href="" class="navbar-list-full__heading-link">
+                                            FEATURED
+                                            <span class="navbar-item__separate-full-heading"></span>
+                                        </a>
+                                    </span>
+
+                                    <ul class="navbar-list-menu-full">
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Tour List
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Tour Carousel
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Tour Filter
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Destination With Tours
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Destination List
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Destination FullScreen Slider
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                FullScreen Sections
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Reviews Carousel
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col l-3">
+                                    <span class="navbar-list-full__heading">
+                                        <a href="" class="navbar-list-full__heading-link">
+                                            PRESENTATION
+                                            <span class="navbar-item__separate-full-heading"></span>
+                                        </a>
+                                    </span>
+
+                                    <ul class="navbar-list-menu-full">
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Team
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Blog List
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Shop List
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Testimonials
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Banner
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Clients
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Parallax Section
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Video Button
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col l-3">
+                                    <span class="navbar-list-full__heading">
+                                        <a href="" class="navbar-list-full__heading-link">
+                                            CLASSIC
+                                            <span class="navbar-item__separate-full-heading"></span>
+                                        </a>
+                                    </span>
+
+                                    <ul class="navbar-list-menu-full">
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Arcodions
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Tabs
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Buttons
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Google Maps
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Contact Form
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Progress Bar
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Countdown
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Counters
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Call To Action
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col l-3">
+                                    <span class="navbar-list-full__heading">
+                                        <a href="" class="navbar-list-full__heading-link">
+                                            TYPOGRAPHY
+                                            <span class="navbar-item__separate-full-heading"></span>
+                                        </a>
+                                    </span>
+
+                                    <ul class="navbar-list-menu-full">
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Headings
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Columns 
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Section Title
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Blogquote
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Dropcaps
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Highlights
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Icon with text
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Separators
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Custom Font
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>  
+                        </div>
+                    </div> 
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-search hide-on-mobile-tablet">
+            <ul class="header-search-list">
+                <li class="header-search-item">
+                    <i class="header-search-item__icon fas fa-shopping-cart"></i>
+
+                    <div class="header-search-item__product">
+                        <span class="header-search-item__product--no-product">No products in the cart</span>
+                    </div>
+                </li>
+                <li class="header-search-item">
+                    <i class="js-header-search header-search-item__icon fas fa-search"></i>
+                </li>
+                <li class="header-search-item">
+                    <i class="js-search-menu header-search-item__icon fas fa-bars"></i>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="navbar-mobile-tablet hide-on-pc">
+        <div class="grid wide">
+            <div class="row">
+                <ul class="navbar-mobile-tablet__list">
+                    <li class="navbar-mobile-tablet__item">
+                        <label for="navbar-mobile-input" class="navbar-mobile-tablet__tittle navbar-mobile-tablet__tittle--active">
+                            <span class="navbar-mobile-tablet__text">
+                                Home
+                            </span>
+
+                            <i class="navbar-mobile-tablet__icon fas fa-angle-right"></i>
+                        </label>
+
+
+                        <ul class="sub-menu-mobile-tablet">
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="https://setsail.qodeinteractive.com/" class="sub-menu-mobile-tablet__link">Travel Agency</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Winter Holidays</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Exotic Destinations</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Summer Holidays</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">City Tours</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">New Year Trips</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Destinations Carousel</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Wine Tours</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Vacation Showcase</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Landing</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-mobile-tablet__item">
+                        <label for="navbar-mobile-input" class="navbar-mobile-tablet__tittle">
+                            <span class="navbar-mobile-tablet__text">
+                                Pages
+                            </span>
+
+                            <i class="navbar-mobile-tablet__icon fas fa-angle-right"></i>
+                        </label>
+
+                        <ul class="sub-menu-mobile-tablet">
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="https://setsail.qodeinteractive.com/" class="sub-menu-mobile-tablet__link">About Us</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">What We Offer</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Our Team</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Get In Touch</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Contact Us</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">FAQ Page</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Coming Soon</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Error Page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-mobile-tablet__item">
+                        <label for="navbar-mobile-input" class="navbar-mobile-tablet__tittle">
+                            <span class="navbar-mobile-tablet__text">
+                                Destinations
+                            </span>
+
+                            <i class="navbar-mobile-tablet__icon fas fa-angle-right"></i>
+                        </label>
+
+                        <ul class="sub-menu-mobile-tablet">
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Destination List</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Destination Slider</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Destination Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-mobile-tablet__item">
+                        <label for="navbar-mobile-input" class="navbar-mobile-tablet__tittle">
+                            <span class="navbar-mobile-tablet__text">
+                                Tours
+                            </span>
+
+                            <i class="navbar-mobile-tablet__icon fas fa-angle-right"></i>
+                        </label>
+
+                        <ul class="sub-menu-mobile-tablet">
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Standard List</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Gallery List</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Split List</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Tour Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-mobile-tablet__item">
+                        <label for="navbar-mobile-input" class="navbar-mobile-tablet__tittle">
+                            <span class="navbar-mobile-tablet__text">
+                                Blog
+                            </span>
+
+                            <i class="navbar-mobile-tablet__icon fas fa-angle-right"></i>
+                        </label>
+
+                        <ul class="sub-menu-mobile-tablet">
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Blog Masonry</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Blog Standard</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Post Types</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-mobile-tablet__item">
+                        <label for="navbar-mobile-input" class="navbar-mobile-tablet__tittle">
+                            <span class="navbar-mobile-tablet__text">
+                                Shop
+                            </span>
+
+                            <i class="navbar-mobile-tablet__icon fas fa-angle-right"></i>
+                        </label>
+
+                        <ul class="sub-menu-mobile-tablet">
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Product List</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Product Single</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Shop Layouts</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Shop Pages</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-mobile-tablet__item">
+                        <label for="navbar-mobile-input" class="navbar-mobile-tablet__tittle">
+                            <span class="navbar-mobile-tablet__text">
+                                Elements
+                            </span>
+
+                            <i class="navbar-mobile-tablet__icon fas fa-angle-right"></i>
+                        </label>
+
+                        <ul class="sub-menu-mobile-tablet">
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Featured</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Presentation</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Classic</a>
+                            </li>
+                            <li class="sub-menu-mobile-tablet__item">
+                                <a href="" class="sub-menu-mobile-tablet__link">Typography</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+
+    <header class="header-slide">
+        <div class="header-logo">
+            <a href="" class="header-logo__link">
+                <img src="./assets/img/logo.png" alt="" class="header-logo__img">
+            </a>
+        </div>
+
+        <div class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading navbar-item__heading--active">
+                        Home
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Travel Agency
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link navbar-list-menu__link--active">
+                                Winter Holidays
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Exotic Destinations
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Summer Holidays
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                City Tours
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                New Year Trips
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Destinations Carousel
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Wine Tours
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Vacation Showcase
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Landing
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Pages
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                About Us
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                What We Offer
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Our Team
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                               Get In Touch
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Contact Us
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                FAQ Page
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Coming Soon
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Error Page
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Destinations
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Destination List
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Destination Slider
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Destination Item
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Tours
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Standard List
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Gallery List
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Split List
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                               Tour Item
+                                <span class="navbar-item__separate-item"></span>
+                            </a>    
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Blog
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Blog Masonry
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Blog Standard
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                            <i class="navbar-list-menu__icon fas fa-angle-right"></i>
+
+                            <ul class="navbar-list-menu-second">
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Right SideBar
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Left SideBar
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Without SideBar
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Post Types
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                            <i class="navbar-list-menu__icon fas fa-angle-right"></i>
+
+                            <ul class="navbar-list-menu-second">
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Standard
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Gallery
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Link
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Quote
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Video
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Audio
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">No SideBar
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Shop
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <ul class="navbar-list-menu">
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Product List
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Product Single
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            <a href="" class="navbar-list-menu__link">
+                                Shop Layouts
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                            <i class="navbar-list-menu__icon fas fa-angle-right"></i>
+
+                            <ul class="navbar-list-menu-second">
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Three Columns
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Four Columns
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Full Width
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar-list-menu__item">
+                            
+                            <a href="" class="navbar-list-menu__link">
+                                Shop Pages
+                                <span class="navbar-item__separate-item"></span>
+                            </a>
+                            <i class="navbar-list-menu__icon fas fa-angle-right"></i>
+
+                            <ul class="navbar-list-menu-second">
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">My account
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Cart
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-menu-second__item">
+                                    <a href="" class="navbar-list-menu-second__link">Check Out
+
+                                    <span class="navbar-item__separate-item-second"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="" class="navbar-item__heading">
+                        Elements
+                        <span class="navbar-item__separate-heading"></span>
+                    </a>
+                    <div class="navbar-item-menu__warrap">
+                        <div class="grid wide">
+                            <div class="row navbar-item-menu__inner">
+                                <div class="col l-3">
+                                    <span class="navbar-list-full__heading">
+                                        <a href="" class="navbar-list-full__heading-link">
+                                            FEATURED
+                                            <span class="navbar-item__separate-full-heading"></span>
+                                        </a>
+                                    </span>
+
+                                    <ul class="navbar-list-menu-full">
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Tour List
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Tour Carousel
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Tour Filter
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Destination With Tours
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Destination List
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Destination FullScreen Slider
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                FullScreen Sections
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Reviews Carousel
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col l-3">
+                                    <span class="navbar-list-full__heading">
+                                        <a href="" class="navbar-list-full__heading-link">
+                                            PRESENTATION
+                                            <span class="navbar-item__separate-full-heading"></span>
+                                        </a>
+                                    </span>
+
+                                    <ul class="navbar-list-menu-full">
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Team
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Blog List
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Shop List
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Testimonials
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Banner
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Clients
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Parallax Section
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Video Button
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col l-3">
+                                    <span class="navbar-list-full__heading">
+                                        <a href="" class="navbar-list-full__heading-link">
+                                            CLASSIC
+                                            <span class="navbar-item__separate-full-heading"></span>
+                                        </a>
+                                    </span>
+
+                                    <ul class="navbar-list-menu-full">
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Arcodions
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Tabs
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Buttons
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Google Maps
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Contact Form
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Progress Bar
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Countdown
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Counters
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Call To Action
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col l-3">
+                                    <span class="navbar-list-full__heading">
+                                        <a href="" class="navbar-list-full__heading-link">
+                                            TYPOGRAPHY
+                                            <span class="navbar-item__separate-full-heading"></span>
+                                        </a>
+                                    </span>
+
+                                    <ul class="navbar-list-menu-full">
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Headings
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Columns 
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Section Title
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Blogquote
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Dropcaps
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Highlights
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Icon with text
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Separators
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                        <li class="navbar-list-menu-full__item">
+                                            <a href="" class="navbar-list-menu-full__link">
+                                                Custom Font
+                                                <span class="navbar-item__separate-item"></span>
+                                            </a>    
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>  
+                        </div>
+                    </div> 
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-search">
+            <ul class="header-search-list">
+                <li class="header-search-item">
+                    <i class="js-header-search header-search-item__icon fas fa-search"></i>
+                </li>
+                <li class="header-search-item">
+                    <i class="js-search-menu header-search-item__icon fas fa-bars"></i>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <!-- Layout -->
+    <div class="layout">  
+        <div class="layout-background" style="background-image: url(https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/skiing-parallax-1.jpg)">
+            <div class="layout-container">
+                <div class="layout-content">
+                    <span class="layout__tagline">Enjoy Your</span>
+                    <h3 class="layout__title">Winter Vacations</h3>
+                    <div class="space hide-on-mobile-tablet"></div>
+                    <span class="layout__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Aenean massa.Cum sociis Theme
+
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="layout-background hide-on-mobile-tablet" style="background-image: url(https://media.cntraveler.com/photos/5fd03e5e225457188dc809b2/16:9/w_2992,h_1683,c_limit/Skiing-2020-GettyImages-157529976.jpg)">
+            <div class="layout-container">
+                <div class="layout-content">
+                    <span class="layout__tagline">From Alps</span>
+                    <h3 class="layout__title">Snow Adventure</h3>
+                    <div class="space hide-on-mobile-tablet"></div>
+                    <span class="layout__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Aenean massa.Cum sociis Theme
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-arrow hide-on-mobile-tablet">
+            <span class="btn-slide btn-slide__left">
+                <i class="btn-slide__icon fas fa-chevron-left"></i>
+            </span>
+            <span class="btn-slide btn-slide__right">
+                <i class="btn-slide__icon fas fa-chevron-right"></i>
+            </span>
+        </div>
+    </div>
+    <!-- slider -->
+
+
+    <div class="slider">
+        <div class=" slider-item hide-on-mobile">
+                <a href="" class="slider-item__link">
+                    <img src="./assets/img/slider4.jpg" alt="" class="slider-item__img">
+                </a>
+                <div class="top-content">
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon far fa-calendar"></i> 1
+                    </div>
+    
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon fas fa-user"></i> 13+
+                    </div>
+    
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon fas fa-map-marker-alt"></i> 
+                        <div class = "top-content__item-type">
+                            <div class = "top-content__item-type">
+                            <span>Skiing</span>
+                            <span class="top-content__separator-item"></span>
+                        </div>
+                            <span class="top-content__separator-item"></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <a href="" class="slider-item__heading">Winter Action</a>
+    
+                <div class="slider-item__sub-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing el.… 
+                </div>
+    
+                <div class="slider-item__standard">
+                    <span class="slider-item__standard-price">$960</span>
+                    <i class="slider-item__standard-icon fas fa-star"></i> 
+                    <span class="slider-item__standard-rating">6.0</span>
+                    <span class="slider-item__standard-rank">Good</span>
+                </div>  
+        </div>
+        <div class=" slider-item hide-on-mobile hide-on-pc-min">
+                <a href="" class="slider-item__link">
+                    <img src="./assets/img/slider5.jpg" alt="" class="slider-item__img">
+                </a>
+                <div class="top-content">
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon far fa-calendar"></i> 1
+                    </div>
+    
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon fas fa-user"></i> 13+
+                    </div>
+    
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon fas fa-map-marker-alt"></i> 
+                        <div class = "top-content__item-type">
+                            <span>Skiing</span>
+                            <span class="top-content__separator-item"></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <a href="" class="slider-item__heading">Magic Of Italy</a>
+    
+                <div class="slider-item__sub-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing el.… 
+                </div>
+    
+                <div class="slider-item__standard">
+                    <span class="slider-item__standard-price">$1000</span>
+                    <i class="slider-item__standard-icon fas fa-star"></i> 
+                    <span class="slider-item__standard-rating">6.7</span>
+                    <span class="slider-item__standard-rank">Good</span>
+                </div>  
+        </div>
+        <div class=" slider-item hide-on-mobile-tablet">
+                <a href="" class="slider-item__link">
+                    <img src="./assets/img/slider6.jpg" alt="" class="slider-item__img">
+                </a>
+                <div class="top-content">
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon far fa-calendar"></i> 1
+                    </div>
+    
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon fas fa-user"></i> 13+
+                    </div>
+    
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon fas fa-map-marker-alt"></i> 
+                        <div class = "top-content__item-type">
+                            <span>Skiing</span>
+                            <span class="top-content__separator-item"></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <a href="" class="slider-item__heading">Skiing In Alps</a>
+    
+                <div class="slider-item__sub-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing el.… 
+                </div>
+    
+                <div class="slider-item__standard">
+                    <span class="slider-item__standard-price">$450</span>
+                    <i class="slider-item__standard-icon fas fa-star"></i> 
+                    <span class="slider-item__standard-rating">6.0</span>
+                    <span class="slider-item__standard-rank">Good</span>
+                </div>  
+        </div>
+        <div class=" slider-item hide-on-mobile-tablet">
+                <a href="" class="slider-item__link">
+                    <img src="./assets/img/slider1.jpg" alt="" class="slider-item__img">
+                </a>
+                <div class="top-content">
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon far fa-calendar"></i> 1
+                    </div>
+    
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon fas fa-user"></i> 13+
+                    </div>
+    
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon fas fa-map-marker-alt"></i> 
+                        <div class = "top-content__item-type">
+                            <span>Skiing</span>
+                            <span class="top-content__separator-item"></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <a href="" class="slider-item__heading">Snow Surfing</a>
+    
+                <div class="slider-item__sub-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing el.… 
+                </div>
+    
+                <div class="slider-item__standard">
+                    <span class="slider-item__standard-price">$720</span>
+                    <i class="slider-item__standard-icon fas fa-star"></i> 
+                    <span class="slider-item__standard-rating">7.3</span>
+                    <span class="slider-item__standard-rank">Superb</span>
+                </div>  
+        </div>
+        <div class=" slider-item">
+                <a href="" class="slider-item__link">
+                    <img src="./assets/img/slider2.jpg" alt="" class="slider-item__img">
+                </a>
+                <div class="top-content">
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon far fa-calendar"></i> 1
+                    </div>
+    
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon fas fa-user"></i> 13+
+                    </div>
+    
+                    <div class="top-content__item">
+                        <i class="top-content__item-icon fas fa-map-marker-alt"></i> 
+                        <div class = "top-content__item-type">
+                            <span>Skiing</span>
+                            <span class="top-content__separator-item"></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <a href="" class="slider-item__heading">Kids Ski School</a>
+    
+                <div class="slider-item__sub-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing el.… 
+                </div>
+    
+                <div class="slider-item__standard">
+                    <span class="slider-item__standard-price">$1600</span>
+                    <i class="slider-item__standard-icon fas fa-star"></i> 
+                    <span class="slider-item__standard-rating">6.7</span>
+                    <span class="slider-item__standard-rank">Good</span>
+                </div>  
+        </div>
+    </div>
+
+    <div class="dots">
+        <button class="btn-dot btn-dot--active"></button>
+        <button class="btn-dot"></button>   
+        <button class="btn-dot hide-on-pc"></button>   
+        <button class="btn-dot hide-on-pc"></button>   
+        <button class="btn-dot hide-on-pc"></button>   
+        <button class="btn-dot hide-on-pc"></button>   
+    </div>
+
+    <div class="container">
+        <div class="grid wide">
+            <div class="container-inner">
+                <div class="container__heading">
+                    <span class="container__heading-tagline">Try Now</span>
+                    <h3 class="container__heading-title">Winter Sports</h3>
+                </div>
+
+                <div class="container__video">
+                    <div href="" class="container__video-link">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h-skiing-video-1.jpg" alt="" class="container__video-img">
+
+                        <span class="container__video-play">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/play-button.png" alt="" class="container__video-play-img">
+                        </span>
+                    </div>
+                    <p class="container__text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis sit amet, consectetuer adipiscing elit Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit ame
+                    </p>
+                </div>
+                <button class="btn container-btn">View More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- content review -->
+
+    <div class="content-review">
+        <div class="grid wide">
+            <div class="row">
+                <div class="content__heading" style="color:#fff;">
+                    <h3 class="content__title">Top Reviews</h3>
+                    <span class="content__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum</span>
+                </div>
+            </div>
+        </div>
+        <div class="content-review__member">
+            <div class="content-review__member-item">
+                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-7.png" alt="" class="content-review__member-item-img">
+
+                <div class="content-review__member-item-info">
+                    <h3 class="content-review__member-item-nation">Holland Canals</h3>
+                    <div class="content-review__member-item-rank">
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                    </div>
+                    <span class="content-review__member-item-text">
+                        Sa etor aviues lmpedlt tes, vof ef nihc agem qupaios. Ai apvy 
+                    </span>
+
+                    <div class="content-review__member-item-name">
+                        Ema Cooper 
+                    </div>
+                </div>
+            </div>
+            <div class="content-review__member-item hide-on-mobile">
+                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-4.png" alt="" class="content-review__member-item-img">
+
+                <div class="content-review__member-item-info">
+                    <h3 class="content-review__member-item-nation">Taipei</h3>
+                    <div class="content-review__member-item-rank">
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                    </div>
+                    <span class="content-review__member-item-text">
+                        Pe utor aviuas lwpadit tas, vut et nihc egam yubulas. Si euvy 
+                    </span>
+
+                    <div class="content-review__member-item-name">
+                        Susan Day 
+                    </div>
+                </div>
+            </div>
+            <div class="content-review__member-item hide-on-mobile">
+                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-3.png" alt="" class="content-review__member-item-img">
+
+                <div class="content-review__member-item-info">
+                    <h3 class="content-review__member-item-nation">Kaohsiung</h3>
+                    <div class="content-review__member-item-rank">
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                        <i class="content-review__member-item-icon fas fa-star"></i>
+                    </div>
+                    <span class="content-review__member-item-text">
+                        Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy 
+                    </span>
+
+                    <div class="content-review__member-item-name">
+                        Roger Brooks 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dots">
+            <button class="btn-dot hide-on-mobile btn-dot--active"></button>
+            <button class="btn-dot hide-on-mobile"></button>   
+            <button class="btn-dot hide-on-mobile"></button>   
+        </div>
+    </div>
+
+    <!-- content favourite -->
+
+    <div class="content-favourite">
+        <div class="grid wide">
+            <div class="row">
+                <div class="content__heading">
+                    <span class="content__tagline">Enjoy Your</span>
+                    <h3 class="content__title">Winter Holiday</h3>
+                    <span class="content__text" style="color:var(--text-color)">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</span>
+                </div>
+            </div>   
+            <div class="row">
+                <div class="col l-3 m-12 c-12">
+                    <div class="content-favourite__item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-1.png" alt="" class="content-favourite__item-img">
+                        <span class="content-favourite__item-title">Restaurants</span>
+                        <span class="content-favourite__item-text">Aenean commodo ligula eget dolor. Lorem ipsum</span>
+                    </div>
+                </div>
+                <div class="col l-3 m-12 c-12">
+                    <div class="content-favourite__item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-2.png" alt="" class="content-favourite__item-img">
+                        <span class="content-favourite__item-title">Sightseeing</span>
+                        <span class="content-favourite__item-text">Aenean commodo ligula eget dolor. Lorem ipsum</span>
+                    </div>
+                </div>
+                <div class="col l-3 m-12 c-12">
+                    <div class="content-favourite__item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-3.png" alt="" class="content-favourite__item-img">
+                        <span class="content-favourite__item-title">Shops & Boutiques</span>
+                        <span class="content-favourite__item-text">Aenean commodo ligula eget dolor. Lorem ipsum</span>
+                    </div>
+                </div>
+                <div class="col l-3 m-12 c-12">
+                    <div class="content-favourite__item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-4.png" alt="" class="content-favourite__item-img">
+                        <span class="content-favourite__item-title">Where to Stay</span>
+                        <span class="content-favourite__item-text">Aenean commodo ligula eget dolor. Lorem ipsum</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- social network -->
+
+
+    <div class="social-network">
+        <ul class="social-network__list">
+            <li class="social-network__item">
+                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-6-1.jpg" alt="" class="social-network__item-img">
+
+                <div class="social-network__item-info">
+                    <h5 class="social-network__item-name">Joe Avery</h5>
+                    <p class="social-network__item-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem</p>
+                    <ul class="social-network__social-list">
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="social-network__item hide-on-mobile">
+                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-7-1.jpg" alt="" class="social-network__item-img">
+
+                <div class="social-network__item-info">
+                    <h5 class="social-network__item-name">Bella Larson</h5>
+                    <p class="social-network__item-text">Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</p>
+                    <ul class="social-network__social-list">
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="social-network__item hide-on-mobile">
+                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-8-1.jpg" alt="" class="social-network__item-img">
+
+                <div class="social-network__item-info">
+                    <h5 class="social-network__item-name">Jack Burton</h5>
+                    <p class="social-network__item-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem</p>
+                    <ul class="social-network__social-list">
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="social-network__item hide-on-mobile-tablet">
+                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-9.jpg" alt="" class="social-network__item-img">
+
+                <div class="social-network__item-info">
+                    <h5 class="social-network__item-name">Grace West</h5>
+                    <p class="social-network__item-text">Peq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</p>
+                    <ul class="social-network__social-list">
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-network__social-item">
+                            <a href="" class="social-network__social-link">
+                                <i class="social-network__social-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="social-network__data">
+            <div class="grid wide">
+                <div class="row social-network__data-container">
+                    <div class="col l-3 m-6 c-12">
+                        <div class="social-network__data-inner" style="opacity: 1;">
+                            <span class="social-network__data-top" id="tourist">452</span>
+                            <span class="social-network__data-footer">Tourists</span>                    
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="social-network__data-inner" style="opacity: 1;">
+                            <span class="social-network__data-top" id="year">120</span>
+                            <span class="social-network__data-footer">Years</span>                    
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="social-network__data-inner" style="opacity: 1;">
+                            <span class="social-network__data-top" id="cottage">283</span>
+                            <span class="social-network__data-footer">Cottages</span>                    
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="social-network__data-inner" style="opacity: 1;">
+                            <span class="social-network__data-top" id="restaurant">197</span>
+                            <span class="social-network__data-footer">Restaurants</span>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- content resort -->
+    <div class="content-resort">
+        <div class="grid wide">
+            <div class="row">
+                <div class="content__heading">
+                    <span class="content__tagline">Choose Your</span>
+                    <h3 class="content__title">Winter Resort</h3>
+                    <span class="content__text" style="color:var(--text-color)">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</span>
+                </div>
+            </div>
+
+            <div class="row content-resort__item">
+                <div class="col l-4 m-4 c-12">
+                    <a href="" class="content-resort__link">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-8-1.jpg" alt="" class="content-resort__img">
+
+                        <h3 class="content-resort__text">Slovenia</h3>
+                    </a>
+                </div>
+                <div class="col l-4 m-4 c-12">
+                    <a href="" class="content-resort__link">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-9-1.jpg" alt="" class="content-resort__img">
+
+                        <h3 class="content-resort__text">France</h3>
+
+                        <div class="content-resort__mark">
+                            <i class="content-resort__mark-icon fas fa-star"></i> 
+                        </div>
+                    </a>
+                </div>
+                <div class="col l-4 m-4 c-12">
+                    <a href="" class="content-resort__link">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-10-1.jpg" alt="" class="content-resort__img">
+
+                        <h3 class="content-resort__text">Switzerland</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="grid wide">
+                <div class="row big-gutter">
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-contact">
+                            <a class="footer-contact__media">
+                                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-footer.png" alt="" class="footer-contact__img">
+                            </a>
+    
+                            <p class="footer-contact__text">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</p>
+                            <a href="mailto:setsail@qode.com" class="footer-contact__link">
+                                <i class="far fa-envelope"></i>
+                                <span>setsail@qode.com</span>
+                            </a>
+                            <a href="tel:1%20562%20867%205309" class="footer-contact__link">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>1 562 867 5309</span>
+                            </a>
+                            <a href="https://www.google.rs/maps/place/Charging+Bull/@40.7055242,-74.0133806,20z/data=!4m5!3m4!1s0x0:0xc7db393ae1eff521!8m2!3d40.7055537!4d-74.0134436" class="footer-contact__link">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Broadway & Morris St, New York</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-location">
+                            <h1 class="footer-location__heading">Our Recent Posts</h1>
+                            <ul class="footer-location__list">
+                                <li class="footer-location__item">
+                                    <a href="https://setsail.qodeinteractive.com/visit-thailand-bali-and-china/" class="footer-location__item-place">
+                                        Visit Thailand, Bali And China 
+                                    </a>
+                                    <a href="https://setsail.qodeinteractive.com/2016/09/" class="footer-location__item-date">
+                                        September 7, 2016
+                                    </a>
+                                </li>
+                                <li class="footer-location__item">
+                                    <a href="https://setsail.qodeinteractive.com/the-sound-of-our-jungle/" class="footer-location__item-place">
+                                        The Sound Of Our Jungle 
+                                    </a>
+                                    <a href="https://setsail.qodeinteractive.com/2016/09/" class="footer-location__item-date">
+                                        September 7, 2016
+                                    </a>
+                                </li>
+                                <li class="footer-location__item">
+                                    <a href="https://setsail.qodeinteractive.com/new-year-new-resolutions/" class="footer-location__item-place">
+                                        New Year, New Resolutions! 
+                                    </a>
+                                    <a href="https://setsail.qodeinteractive.com/2016/09/" class="footer-location__item-date">
+                                        September 7, 2016
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-validated">
+                            <h1 class="footer-heading">Subscribe to our Newsletter</h1>
+                            <p class="footer-text">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
+    
+                            <div class="footer-form">
+                                <span class="footer-form__icon">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <input type="text" class="footer-form__name" placeholder="Name">
+                            </div>
+                            <div class="footer-form">
+                                <span class="footer-form__icon">
+                                    <i class="far fa-envelope"></i>
+                                </span>
+                                <input type="text" class="footer-form__name" placeholder="Email">
+                            </div>
+    
+                            <button class="btn btn-validated">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-social">
+                            <h1 class="footer-heading">Our Instagram</h1>
+                            <p class="footer-text">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="footer-end__text">
+                Powered by @ 
+                <a href="https://qodeinteractive.com/" class="footer-end__link">Qode Interactive 2018</a>
+            </div>
+        </div>
+    </footer>
+
+    <section class="modal-attraction">
+        <!-- button related -->
+        <div class="btn-related">
+            <span class="btn-related__icon">
+                <svg x="0px" y="0px" viewBox="0 0 87 87" style="fill: #fff;height: 26px;">
+                    <path d="M55.4,81.5c6.1-11.1,5.2-16.1-4.3-24.3c6.1-3.5,9.5-8.5,9.1-15.7c-0.5-8.2-7.7-14.7-16.3-14.6
+                        c-8.5,0.1-15.6,6.7-15.9,15c-0.3,8.5,5.9,15.8,14.3,16.6c1.4,0.1,2.8,0.2,4.2,0.5c5.9,1.2,10.2,6.7,9.8,12.6
+                        c-0.4,6.4-5.5,11.4-11.8,11.7C24.9,84.2,5.9,68.5,3.2,49.3C-0.1,26.9,14.4,6.8,36.4,2.8c22.3-4,43.4,10,48.1,32
+                        c4.3,20-8.6,41.2-28.4,46.7C55.9,81.5,55.6,81.5,55.4,81.5z"></path>
+                </svg>
+                <svg width="32" height="32" viewBox="0 0 32 32" style="fill: #fff;height: 20px;">
+                        <path d="M 4,15C 4,15.552, 4.448,16, 5,16l 19.586,0 l-4.292,4.292c-0.39,0.39-0.39,1.024,0,1.414 c 0.39,0.39, 1.024,0.39, 1.414,0l 6-6c 0.092-0.092, 0.166-0.202, 0.216-0.324C 27.972,15.26, 28,15.132, 28,15.004c0-0.002,0-0.002,0-0.004 l0,0c0-0.13-0.026-0.26-0.078-0.382c-0.050-0.122-0.124-0.232-0.216-0.324l-6-6c-0.39-0.39-1.024-0.39-1.414,0 c-0.39,0.39-0.39,1.024,0,1.414L 24.586,14L 5,14 C 4.448,14, 4,14.448, 4,15z"></path>
+                </svg>
+            </span>
+            <span class="btn-related__textname">RELATED</span>
+        </div>
+    
+        <!-- button buy -->
+        <div class="btn-purchase">
+            <a target="_blank" href="https://qodeinteractive.com/purchase/setsail/?aso=direct%26aca=direct%26aid=mikado">
+                <span class="btn-purchase__icon">
+                    <svg x="0px" y="0px" viewBox="0 0 24 24" style="fill: #ee2852; height: 16px;">
+                        <circle cx="9" cy="21" r="2"></circle>
+                        <circle cx="20" cy="21" r="2"></circle>
+                        <path d="M23.8,5.4C23.6,5.1,23.3,5,23,5H6.8L6,0.8C5.9,0.3,5.5,0,5,0H1C0.4,0,0,0.4,0,1s0.4,1,1,1h3.2L5,6.2c0,0,0,0.1,0,0.1
+                            l1.7,8.3C7,16,8.2,17,9.6,17c0,0,0,0,0.1,0h9.7c1.5,0,2.7-1,3-2.4L24,6.2C24,5.9,24,5.6,23.8,5.4z"></path>
+                        </svg>
+                </span>
+                <span class="btn-purchase__text">BUY NOW</span>
+            </a>
+        </div>
+    
+        <!-- modal interactive -->
+        <div class="modal-interactive">
+            <div class="modal-list">
+                <div class="modal-list__inner">
+                    <div class="modal-list__logo">
+                        <a href="https://qodeinteractive.com/?_ga=2.16526390.1051322245.1638864427-1072851570.1635062461" target="_blank">
+                            <div class="logo-svg-holder">
+                                <svg x="0px" y="0px" viewBox="0 0 87 87" style="fill: #ee2852; height: 40px;">
+                                    <path d="M55.4,81.5c6.1-11.1,5.2-16.1-4.3-24.3c6.1-3.5,9.5-8.5,9.1-15.7c-0.5-8.2-7.7-14.7-16.3-14.6
+                                        c-8.5,0.1-15.6,6.7-15.9,15c-0.3,8.5,5.9,15.8,14.3,16.6c1.4,0.1,2.8,0.2,4.2,0.5c5.9,1.2,10.2,6.7,9.8,12.6
+                                        c-0.4,6.4-5.5,11.4-11.8,11.7C24.9,84.2,5.9,68.5,3.2,49.3C-0.1,26.9,14.4,6.8,36.4,2.8c22.3-4,43.4,10,48.1,32
+                                        c4.3,20-8.6,41.2-28.4,46.7C55.9,81.5,55.6,81.5,55.4,81.5z"></path>
+                                </svg>
+                            </div>
+                            <p class="logo-text">Qode Interactive</p>
+                        </a>
+                    </div>
+                    <span class="modal-list__heading">Related Themes</span>
+                    <a target="_blank" href="https://qodeinteractive.com/wordpress-theme/iver-a-modern-hotel-and-booking-theme/?utm_campaign=select&utm_source=toolbar" title="Seafarer - Yacht and Boat Rental Theme">
+                        <div class="modal-item">
+                            <div class="modal-item__img">
+                                <img itemprop="image" width="225" height="114" src="https://previews.customer.envatousercontent.com/files/362567171/00_preview.__large_preview.jpg" alt="Seafarer" class="">
+                            </div>
+                            <span class="modal-item__name">Seafarer</span>
+                            <span class="modal-item__tag">travel &amp; hotels</span>
+                            <span class="modal-item__price">$69</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://qodeinteractive.com/wordpress-theme/kamperen-camping-and-adventure-tourism/?utm_campaign=select&utm_source=toolbar" title="Kamperen - Camping and Adventure Tourism">
+                        <div class="modal-item">
+                            <div class="modal-item__img">
+                                <img itemprop="image" width="225" height="114" src="https://previews.customer.envatousercontent.com/files/354941098/00_preview.__large_preview.png" alt="Kamperen" class="">
+                            </div>
+                            <span class="modal-item__name">Kamperen</span>
+                            <span class="modal-item__tag">travel &amp; hotels</span>
+                            <span class="modal-item__price">$75</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://qodeinteractive.com/wordpress-theme/augustine-hotel-booking-theme/?utm_campaign=select&utm_source=toolbar" title="Augustine - Hotel Booking Theme">
+                        <div class="modal-item">
+                            <div class="modal-item__img">
+                                <img itemprop="image" width="225" height="114" src="https://previews.customer.envatousercontent.com/files/327431833/00_preview.__large_preview.png" alt="Augustine" class="">
+                            </div>
+                            <span class="modal-item__name">Augustine</span>
+                            <span class="modal-item__tag">travel &amp; hotels</span>
+                            <span class="modal-item__price">$79</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://qodeinteractive.com/wordpress-theme/alloggio-hotel-booking-theme/?utm_campaign=select&utm_source=toolbar" title="Alloggio - Hotel Booking Theme">
+                        <div class="modal-item">
+                            <div class="modal-item__img">
+                                <img itemprop="image" width="225" height="114" src="https://previews.customer.envatousercontent.com/files/345799597/00_preview.__large_preview.jpg" alt="Alloggio" class="">
+                            </div>
+                            <span class="modal-item__name">Alloggio</span>
+                            <span class="modal-item__tag">travel &amp; hotels</span>
+                            <span class="modal-item__price">$75</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://qodeinteractive.com/wordpress-theme/iver-a-modern-hotel-and-booking-theme/?utm_campaign=select&utm_source=toolbar" title="Iver - Modern Hotel Theme">
+                        <div class="modal-item">
+                            <div class="modal-item__img">
+                                <img itemprop="image" width="225" height="114" src="https://previews.customer.envatousercontent.com/files/262083116/00_preview.__large_preview.png" alt="Iver" class="">
+                            </div>
+                            <span class="modal-item__name">Iver</span>
+                            <span class="modal-item__tag">travel &amp; hotels</span>
+                            <span class="modal-item__price">$79</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://qodeinteractive.com/wordpress-theme/bonvoyage-travel-agency-and-tour-booking-theme/?utm_campaign=select&utm_source=toolbar" title="BonVoyage - Travel Agency and Tour Theme">
+                        <div class="modal-item">
+                            <div class="modal-item__img">
+                                <img itemprop="image" width="225" height="114" src="https://previews.customer.envatousercontent.com/files/243944603/00_preview.__large_preview.png" alt="BonVoyage" class="">
+                            </div>
+                            <span class="modal-item__name">BonVoyage</span>
+                            <span class="modal-item__tag">travel &amp; hotels</span>
+                            <span class="modal-item__price">$69</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <a class="btn-interactive" href="https://qodeinteractive.com" target="_blank">
+                <p class="btn-interactive__text">VIEW ALL QODE THEMES</p>
+                <div class="btn-interactive__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="9" viewBox="0 0 9 9">
+                        <image width="9" height="9" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAQAAABKmM6bAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBhISBAPLk0qYAAAAZ0lEQVQI103OsQnCUACE4S9qmofLWLpDcChXEPcIksoF3CG94ALaBDmLl0j+Kw7urjgxq2TMmBIblWLQag1KE2jcbT1w9F1WN53JpNPvQFzm6uO6rFaso/3s/xOHPHOKkFcq75xr+QPBNi/UsU/OawAAAABJRU5ErkJggg=="></image>
+                    </svg>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- modal search -->
+
+    <div class="modal js-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-inner js-modal-inner">
+            <div class="modal-search">
+                <input type="text" class="modal-search__input" placeholder="Search...">
+            </div>
+
+            <button class="btn btn-search">
+                FIND NOW
+            </button>
+        </div>
+
+        <div class="modal-close js-modal-close">
+            <i class="modal-close__icon fas fa-times"></i>
+        </div>
+    </div>
+
+    <!-- modal video -->
+
+    <div class="modal-video">
+        <div class="modal-overlay__video">
+        </div>
+
+        <iframe class="video" src="https://www.youtube-nocookie.com/embed/5u0D7D5Jcro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    
+    <!-- slide menu -->
+
+    <div class="modal-menu">
+        <div class="modal-menu__close">
+            <i class="modal-menu__close-icon fas fa-times"></i>
+        </div>
+        <div class="modal-menu__logo">
+            <img src="./assets/img/logo.png" alt=""  class="modal-menu__logo-img" >
+        </div>
+        <div class="modal-menu__heading">
+            <img src="./assets/img/heading.png" alt="" class="modal-menu__heading-img">
+        </div>
+        <div class="modal-menu__map">
+            <img src="./assets/img/map.jpg" alt="" class="modal-menu__map-img">
+        </div>
+
+        <span class="modal-menu__text">
+            Lorem ipsum dolor sit amet, consectetuer adipis cing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis theme natoque
+        </span>
+        <div class="modal-menu__finding">
+            <h5 class="modal-menu__finding-title">Find Your Destination</h5>
+            <div class="modal-menu__finding-form">
+                <input type="text" class="modal-menu__finding-input" placeholder="Search...">
+                <button class="btn btn-form">
+                    <i class="btn-form__icon fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+
+        <h5 class="modal-menu__footer">Follow Me</h5>
+
+        <ul class="social-list">
+            <li class="social-item">
+                <a href="" class="social-link">
+                    <i class="social-icon fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="" class="social-link">
+                    <i class="social-icon fab fa-pinterest-p"></i>
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="" class="social-link">
+                    <i class="social-icon fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="" class="social-link">
+                    <i class="social-icon fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- slide-top -->
+    <div class="slide-top">
+        <span class="slide-top__text">TOP</span>
+    </div>
+
+    <!-- btn chat -->
+
+  
+    <button class="btn-chatting">
+        <span class="btn-chatting__icon">
+            <svg id="Layer_1" x="0" y="0" viewBox="0 0 15 16" xml:space="preserve" aria-hidden="true"><path d="M1.3,16c-0.7,0-1.1-0.3-1.2-0.8c-0.3-0.8,0.5-1.3,0.8-1.5c0.6-0.4,0.9-0.7,1-1c0-0.2-0.1-0.4-0.3-0.7c0,0,0-0.1-0.1-0.1 C0.5,10.6,0,9,0,7.4C0,3.3,3.4,0,7.5,0C11.6,0,15,3.3,15,7.4s-3.4,7.4-7.5,7.4c-0.5,0-1-0.1-1.5-0.2C3.4,15.9,1.5,16,1.5,16 C1.4,16,1.4,16,1.3,16z M3.3,10.9c0.5,0.7,0.7,1.5,0.6,2.2c0,0.1-0.1,0.3-0.1,0.4c0.5-0.2,1-0.4,1.6-0.7c0.2-0.1,0.4-0.2,0.6-0.1 c0,0,0.1,0,0.1,0c0.4,0.1,0.9,0.2,1.4,0.2c3,0,5.5-2.4,5.5-5.4S10.5,2,7.5,2C4.5,2,2,4.4,2,7.4c0,1.2,0.4,2.4,1.2,3.3 C3.2,10.8,3.3,10.8,3.3,10.9z"></path></svg>
+        </span>
+        <span class="btn-chatting__text">Trò chuyện</span>
+    </button>
+    
+    <div class="box-chat">
+        <div class="box-header">
+            <div class="box-heading">
+                <h1 class="box-heading__text">Live Chat</h1>
+                <span class="box-heading__icon">
+                    <svg width="10" height="10" viewBox="0 0 10 10" data-garden-id="buttons.icon" data-garden-version="8.13.0" theme="[object Object]" class="sc-bwzfXH hDrfMZ sc-8oqvmj-0 epRbkU"><defs><path id="path-1" d="M0.00025 0.00043L9.793 0.00043 9.793 9.79343 0.00025 9.79343z"></path></defs><g id="Page-1" stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><g id="Group-3"><path d="M1.7325,9.47483 L7.8135,3.39383 L7.8135,6.64683 C7.8135,7.21183 8.2375,7.63683 8.8035,7.63683 C9.3685,7.63683 9.7935,7.21183 9.7935,6.64683 L9.7935,0.98983 C9.7935,0.84883 9.7935,0.70683 9.7225,0.63683 C9.5815,0.35383 9.4405,0.21183 9.1565,0.07083 C9.0155,0.07083 8.9445,-0.00017 8.8035,-0.00017 L3.1465,-0.00017 C2.8635,-0.00017 2.6515,0.07083 2.4395,0.28283 C2.2275,0.49483 2.1565,0.70683 2.1565,0.98983 C2.1565,1.55583 2.5815,1.97983 3.1465,1.97983 L6.3995,1.97983 L0.3175,8.06083 C-0.1055,8.48583 -0.1055,9.05083 0.3175,9.47483 C0.7425,9.89983 1.3085,9.89983 1.7325,9.47483" id="Fill-1" fill="#000" mask="url(#mask-2)"></path></g></g></svg>
+                </span>
+                <span class="box-heading__icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" data-garden-id="buttons.icon" data-garden-version="8.13.0" theme="[object Object]" class="sc-bwzfXH hDrfMZ"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M3 8h10"></path></svg>
+                </span>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box-introduce">
+                <div class="box-introduce__icon">
+                    <img aria-hidden="true" alt="avatar" class="avatar-1srMe u-block u-paddingAN u-textCenter sc-1r4vh2m-5 iQnnpw" src="https://v2assets.zopim.io/T3tC5srDWMWEvmgbhxXfVL6uMBg21GEv-concierge?1574414248512">
+                </div>
+                <div class="box-introduce__text">
+                    <span class="box-introduce__title">Qode Interactive</span>
+                    <span class="box-introduce__subtitle">Product Inquiries</span>
+                </div>
+            </div>
+
+            <a href="https://www.zendesk.com/service/messaging/live-chat-widget/?iref=T3tC5srDWMWEvmgbhxXfVL6uMBg21GEv&lang=vi-vn&utm_campaign=poweredbyzendesk&utm_content=undefined&utm_medium=poweredbyzendeskchat&utm_source=webwidgetchat&utm_term=T3tC5srDWMWEvmgbhxXfVL6uMBg21GEv" class="box-contaner__link">
+                <svg id="Layer_1" data-name="Layer 1" viewBox="0 0 624.47 119.59"><title>zendesk</title><defs><style>.cls-1{fill:#03363d}</style></defs><path class="cls-1" d="M2014.78,120.15A31.34,31.34,0,0,0,2037,111.5l11,11.91c-7.3,7.49-17.4,13.07-33.12,13.07-26.95,0-44.35-17.86-44.35-42.07,0-24,18.34-42.07,41.91-42.07,26.76,0,41.91,20.36,40.61,48.6H1989.9c2.24,11.72,10.48,19.21,24.88,19.21m19.27-32.65c-1.68-10.95-8.23-19-21.33-19-12.16,0-20.58,6.91-22.83,19h44.16Z" transform="translate(-1599.52 -16.89)"></path><path class="cls-1" d="M0 102.38L48.68 52.94 1.14 52.94 1.14 37.42 71.24 37.42 71.24 53.26 22.56 102.7 71.89 102.7 71.89 118.22 0 118.22 0 102.38z"></path><path class="cls-1" d="M1726.05 120.15a31.34 31.34 0 0022.27-8.65l11 11.91c-7.3 7.49-17.4 13.07-33.12 13.07-26.95 0-44.35-17.86-44.35-42.07 0-24 18.34-42.07 41.91-42.07 26.76 0 41.91 20.36 40.61 48.6h-63.24c2.24 11.72 10.48 19.21 24.88 19.21m19.27-32.65c-1.68-10.95-8.23-19-21.33-19-12.16 0-20.58 6.91-22.83 19h44.16zM1869.51 94.46c0-25.86 19.31-42 40.56-42 10.71 0 20.94 4.69 26.94 12.13V16.89h17.21v118H1937V123.71c-6.16 7.92-16.39 12.77-27.1 12.77-20.6 0-40.4-16.32-40.4-42m68.48-.16c0-14.38-10.87-26.18-25.64-26.18-14.44 0-25.64 11.47-25.64 26.18s11.19 26.34 25.64 26.34c14.77 0 25.64-11.8 25.64-26.34M2064.34 117.73l15.57-8.08a23.12 23.12 0 0020.77 11.79c9.74 0 14.77-5 14.77-10.66 0-6.46-9.41-7.92-19.63-10-13.8-2.91-28.07-7.44-28.07-24.08 0-12.77 12.17-24.57 31.32-24.4 15.09 0 26.29 6 32.62 15.67l-14.44 7.92c-3.73-5.66-10.06-9.21-18.17-9.21-9.25 0-14 4.53-14 9.7 0 5.82 7.46 7.43 19.15 10 13.3 2.91 28.39 7.27 28.39 24.08 0 11.15-9.73 26.18-32.78 26-16.87 0-28.72-6.79-35.53-18.75" transform="translate(-1599.52 -16.89)"></path><path class="cls-1" d="M579.84 82.1L566.21 96.96 566.21 117.97 549.01 117.97 549.01 0 566.21 0 566.21 77.25 602.72 37.17 623.65 37.17 592.01 71.75 624.47 117.97 604.99 117.97 579.84 82.1z"></path><path class="cls-1" d="M1817.53,52.42c-20.45,0-37.57,13.25-37.57,35.23v47.2h17.53v-45c0-13.25,7.62-21.18,20.6-21.18s19.48,7.93,19.48,21.18v45h17.53V87.65c0-22-17.12-35.23-37.57-35.23" transform="translate(-1599.52 -16.89)"></path></svg>
+            </a>
+    
+            <div class="box-space">
+            </div>
+        </div>
+
+        <div class="box-filled hide-on-mobile-tablet hide-on-pc-min">
+            <input type="text" class="box-input" placeholder="Nhập tin nhắn ở đây...">
+        </div>
+
+        <div class="box-footer hide-on-mobile-tablet hide-on-pc-min">
+            <a href="https://www.zendesk.com/service/messaging/live-chat-widget/?iref=T3tC5srDWMWEvmgbhxXfVL6uMBg21GEv&lang=vi-vn&utm_campaign=poweredbyzendesk&utm_content=undefined&utm_medium=poweredbyzendeskchat&utm_source=webwidgetchat&utm_term=T3tC5srDWMWEvmgbhxXfVL6uMBg21GEv" class="box-footer__link">
+                <svg id="Layer_1" data-name="Layer 1" viewBox="0 0 624.47 119.59"><title>zendesk</title><defs><style>.cls-1{fill:#03363d}</style></defs><path class="cls-1" d="M2014.78,120.15A31.34,31.34,0,0,0,2037,111.5l11,11.91c-7.3,7.49-17.4,13.07-33.12,13.07-26.95,0-44.35-17.86-44.35-42.07,0-24,18.34-42.07,41.91-42.07,26.76,0,41.91,20.36,40.61,48.6H1989.9c2.24,11.72,10.48,19.21,24.88,19.21m19.27-32.65c-1.68-10.95-8.23-19-21.33-19-12.16,0-20.58,6.91-22.83,19h44.16Z" transform="translate(-1599.52 -16.89)"></path><path class="cls-1" d="M0 102.38L48.68 52.94 1.14 52.94 1.14 37.42 71.24 37.42 71.24 53.26 22.56 102.7 71.89 102.7 71.89 118.22 0 118.22 0 102.38z"></path><path class="cls-1" d="M1726.05 120.15a31.34 31.34 0 0022.27-8.65l11 11.91c-7.3 7.49-17.4 13.07-33.12 13.07-26.95 0-44.35-17.86-44.35-42.07 0-24 18.34-42.07 41.91-42.07 26.76 0 41.91 20.36 40.61 48.6h-63.24c2.24 11.72 10.48 19.21 24.88 19.21m19.27-32.65c-1.68-10.95-8.23-19-21.33-19-12.16 0-20.58 6.91-22.83 19h44.16zM1869.51 94.46c0-25.86 19.31-42 40.56-42 10.71 0 20.94 4.69 26.94 12.13V16.89h17.21v118H1937V123.71c-6.16 7.92-16.39 12.77-27.1 12.77-20.6 0-40.4-16.32-40.4-42m68.48-.16c0-14.38-10.87-26.18-25.64-26.18-14.44 0-25.64 11.47-25.64 26.18s11.19 26.34 25.64 26.34c14.77 0 25.64-11.8 25.64-26.34M2064.34 117.73l15.57-8.08a23.12 23.12 0 0020.77 11.79c9.74 0 14.77-5 14.77-10.66 0-6.46-9.41-7.92-19.63-10-13.8-2.91-28.07-7.44-28.07-24.08 0-12.77 12.17-24.57 31.32-24.4 15.09 0 26.29 6 32.62 15.67l-14.44 7.92c-3.73-5.66-10.06-9.21-18.17-9.21-9.25 0-14 4.53-14 9.7 0 5.82 7.46 7.43 19.15 10 13.3 2.91 28.39 7.27 28.39 24.08 0 11.15-9.73 26.18-32.78 26-16.87 0-28.72-6.79-35.53-18.75" transform="translate(-1599.52 -16.89)"></path><path class="cls-1" d="M579.84 82.1L566.21 96.96 566.21 117.97 549.01 117.97 549.01 0 566.21 0 566.21 77.25 602.72 37.17 623.65 37.17 592.01 71.75 624.47 117.97 604.99 117.97 579.84 82.1z"></path><path class="cls-1" d="M1817.53,52.42c-20.45,0-37.57,13.25-37.57,35.23v47.2h17.53v-45c0-13.25,7.62-21.18,20.6-21.18s19.48,7.93,19.48,21.18v45h17.53V87.65c0-22-17.12-35.23-37.57-35.23" transform="translate(-1599.52 -16.89)"></path></svg>
+            </a>
+
+            <div class="box-footer__sub">
+                <div class="box-footer__guide">
+                    <svg viewBox="0 0 14 13.99" data-garden-id="buttons.icon" data-garden-version="8.13.0" theme="[object Object]" class="sc-bwzfXH hDrfMZ sc-9lgviz-0 xVzBk"><g id="Layer_2" data-name="Layer 2"><g id="Layer_2-2" data-name="Layer 2"><path d="M8.72,9.28a.47.47,0,0,0-.47.47v2H5.42V2.22H8.26v2a.47.47,0,1,0,.93,0V1.76a.47.47,0,0,0-.47-.47H5.42V.47A.47.47,0,0,0,4.79,0L.31,1.66A.47.47,0,0,0,0,2.1v9.79a.47.47,0,0,0,.31.44L4.79,14,5,14a.47.47,0,0,0,.27-.08.46.46,0,0,0,.2-.38v-.87h3.3a.47.47,0,0,0,.47-.47V9.75A.47.47,0,0,0,8.72,9.28ZM4.49,12.86.93,11.57V2.43L4.49,1.13Z"></path><path d="M13.85,6.62l-2-2a.5.5,0,1,0-.7.71l1.11,1.09H6.5a.51.51,0,0,0,0,1h5.77L11.13,8.61a.5.5,0,1,0,.7.71l2-2a.5.5,0,0,0,0-.71Z"></path></g></g></svg>
+                </div>
+                <div class="box-footer__attach">
+                    <div class="box-footer__attach-icon">
+                        <svg width="14" height="14" viewBox="0 0 14 14" data-garden-id="buttons.icon" data-garden-version="8.13.0" theme="[object Object]" class="sc-bwzfXH hDrfMZ sc-1imj0fd-0 ljqtka"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6 4.6v5c0 .6.5 1.1 1.1 1.1s1.1-.5 1.1-1.1V2.7C8.2 1.5 7.2.5 6 .5s-2.2 1-2.2 2.2v7.5c0 1.8 1.5 3.3 3.3 3.3s3.3-1.5 3.3-3.3V4.6"></path></svg>
+                    </div>
+                    <input type="file" multiple="" id="" style="display: none">
+                </div>
+                <div class="box-footer__options">
+                    <div class="box-footer__options-icon">
+                        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" data-garden-id="buttons.icon" data-garden-version="8.13.0" theme="[object Object]" class="sc-bwzfXH hDrfMZ sc-10bahzl-4 hMRVSf"><g fill="currentColor"><circle cx="2.5" cy="8" r="1.5"></circle><circle cx="8" cy="8" r="1.5"></circle><circle cx="13.5" cy="8" r="1.5"></circle></g></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-filled-mobile-tablet">
+            <div class="box-filled-mobile-tablet__attach">
+                <div class="box-filled-mobile-tablet__attach-icon">
+                    <svg width="14" height="14" viewBox="0 0 14 14" data-garden-id="buttons.icon" data-garden-version="8.13.0" theme="[object Object]" class="sc-bwzfXH hDrfMZ sc-1imj0fd-0 ljqtka"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6 4.6v5c0 .6.5 1.1 1.1 1.1s1.1-.5 1.1-1.1V2.7C8.2 1.5 7.2.5 6 .5s-2.2 1-2.2 2.2v7.5c0 1.8 1.5 3.3 3.3 3.3s3.3-1.5 3.3-3.3V4.6"></path></svg>
+                </div>
+            </div>
+
+            <div class="box-filled-mobile-tablet__input">
+                <input type="text" class="box-filled-mobile-tablet__input-filled" placeholder="Nhập tin nhắn ở đây...">
+            </div>  
+
+            <div class="box-filled-mobile-tablet__sended">
+                <div class="box-filled-mobile-tablet__sended-icon">
+                    <svg width="14" height="14" viewBox="0 0 14 14" data-testid="Icon--send-chat" data-garden-id="buttons.icon" data-garden-version="8.13.0" theme="[object Object]" class="sc-bwzfXH hDrfMZ styles__StyledIcon-sc-15r9aw0-0 kEcutK"><g id="Chat-unification---Mobile-designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1253 -897)"><g id="type-area" transform="translate(902 883)" fill="#999"><path d="M352.557407,22.5218986 L358.807516,20.9997271 L352.557407,19.4688426 L351.051175,15.1567495 C350.792305,14.4161394 351.582213,13.7417486 352.292332,14.0981128 L364.515949,20.2233935 C365.16135,20.546648 365.16135,21.4528062 364.515949,21.7760607 L352.291445,27.9022127 C351.581326,28.2577055 350.791419,27.5841861 351.050289,26.843576 L352.557407,22.5218986 Z" id="Fill-96"></path></g></g></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/app.js"></script>
+    
+    
+</body>
+</html>

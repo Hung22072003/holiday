@@ -1,0 +1,292 @@
+/* pc */
+@media (min-width:1025px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1239px) {
+    .hide-on-pc-min {
+        display:none;
+    }
+
+    .btn-chatting__icon {
+        margin-right:0;
+    }
+
+    .btn-chatting {
+        padding:14px;
+    }
+
+    .btn-chatting__text {
+        display:none;
+    }
+
+    .box-chat {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width:100%;
+        border-radius: 0;
+        height:100%;
+    }
+
+    .box-filled-mobile-tablet {
+        display:flex;
+    }
+    
+    .box-contaner__link {
+        display:block;
+    }
+
+    .box-heading__text {
+        font-size: 1.6rem;
+    }
+}
+
+/* Mobile and Tablet */
+@media (max-width:1024px) {
+    :root {
+        --header-height-mobile-tablet:69px;
+    }
+    .hide-on-mobile-tablet{
+        display:none;
+    }
+
+    .header {
+        background-color:var(--primary-color);
+        margin:0;
+        height: var(--header-height-mobile-tablet);
+        padding:0;
+        display:block;
+        position: fixed;
+        right: 0;
+        top: 0;
+        left: 0;
+        z-index: 50;
+    }
+
+    .header-mobile-tablet {
+        display:block;
+        height:var(--header-height-mobile-tablet);
+    }
+
+    .header-logo__img-mobile-tablet {
+        display:block;
+        width:auto;
+        height: 36px;
+    }
+
+    .layout {
+        margin-top:var(--header-height-mobile-tablet)
+    }
+
+    .container__video {
+        width:100%;
+        margin-left:0;
+    }
+
+    .content__heading {
+        width:100%;
+        margin-left:0;
+    }
+
+    .content-review__member-item {
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .content-review__member-item-img {
+        margin:0 0 20px 0;
+    }
+
+    .content-review__member-item-info {
+        text-align:center;
+    }
+
+    .content-resort__text {
+        font-size: 3.2rem;
+        font-weight: 100;
+    }
+
+    .btn-chatting__icon {
+        margin-right:0;
+    }
+
+    .btn-chatting {
+        padding:14px;
+    }
+
+    .btn-chatting__text {
+        display:none;
+    }
+
+    .box-chat {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width:100%;
+        border-radius: 0;
+        height: 100%;
+    }
+
+    .box-filled-mobile-tablet {
+        display:flex;
+    }
+
+    .box-contaner__link {
+        display:block;
+    }
+
+    .box-heading__text {
+        font-size: 1.6rem;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1024px) {
+    .hide-on-tablet{
+        display:none;
+    }
+    .layout__title {
+        font-size: 8.2rem;
+        line-height: 88px;
+        margin:12px 0;
+    }
+    .layout__text {
+        font-size: 1.7rem;
+        width:549px;
+    }
+
+    .layout-background {
+        padding:206px 0;
+    }
+
+    .video {
+        width:652px;
+        height:348px;
+    }
+
+    .content-review__member {
+        margin-top:31px;
+    }
+
+    .content-review__member-item {
+        padding: 40px 23px;
+    }
+
+    .content-review__member-item-nation {
+        margin:0 0 15px 0;
+    }
+
+    .content-review__member-item-text {
+        padding-top:10px;
+    }
+
+    .social-network__item {
+        width:33.33%;
+    }
+
+
+    .content-resort__link {
+        padding:0 12px;
+    }
+
+    .content-resort__mark {
+        top:15px;
+        right:7px;
+    }
+
+    .footer-validated,.footer-social {
+        margin-top:65px;
+    }
+
+    .social-network__item-info {
+        bottom:5px
+    }
+}
+
+/* Mobile */
+@media (max-width:739px) {
+    .hide-on-mobile{
+        display:none;
+    }
+
+    .layout-background {
+        padding:116px 0;
+    }
+
+    .layout__tagline {
+        font-size: 3.4rem;
+    }
+
+    .layout__title {
+        font-size: 3.5rem;
+        line-height: 88px;
+    }
+
+    .layout__text {
+        font-size: 1.5rem;
+        width:295px;
+    }
+
+    .container-inner {
+        margin:0;
+    }
+
+    .container__heading-title {
+        font-size: 3.5rem;
+    }
+
+    .content__title {
+        font-size: 3.5rem;
+        line-height: 35px;
+    }
+
+    .content-review__member-item {
+        margin-right: 0;
+    }
+
+    .content-review__member {
+        margin:25px 0;
+    }
+
+    .social-network__item {
+        width:100%
+    }
+
+    .social-network__item-info {
+        bottom: 4px;
+    }
+
+    .content-resort__link {
+        padding:0;
+        margin-bottom:50px;
+    }
+
+    .content-resort__item {
+        padding:62px 0 120px 0;
+    }
+
+    .content-resort__mark {
+        top:40px;
+        right:0;
+    }
+
+    .footer-inner {
+        padding: 106px 40px 78px;
+    }
+
+    .footer-location,.footer-validated,.footer-social {
+        margin-top:60px;
+    }
+
+    .modal-attraction {
+        display:none;
+    }
+
+    .footer-form__icon {
+        top:15px;
+    }
+}
+
